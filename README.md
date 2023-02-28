@@ -1,18 +1,6 @@
 # EasyBert
 基于Pytorch的Bert应用，包括命名实体识别、情感分析、文本分类以及文本相似度等(后续更新其他方向相关模块)，并有相关数据与深度训练优化方式api。各个子项目大都为开源工作，本项目仅做相应处理以及提供一个已训练的预测接口，方便需求者进行快速的使用。本项目仅作为学习与研究使用，若存在侵权行为，请原作者务必联系我进行协商处理。
 
-
-
-# 使用示例
-
-1. 使用前需下载相应的已训练模型，并导入相应位置
-
-   模型下载地址：链接：https://pan.baidu.com/s/1fyENks6pJ3rreHPCRBzpKQ  提取码：qotk 
-
-2. 在此目录下各以需求名命名的文件中提供相应的使用演示，本阶段所训练的模型效果可以满足相应任务的基本需求。
-
-3. 现阶段通过各任务接口的时间相对慢，大都是在模型加载阶段。若想提升相应的速度，请使用者在接受相应精度损失的前提下更换AlBert进行相应任务的重新预训练。
-
 # 依赖项
 
 ## 环境依赖
@@ -157,27 +145,17 @@ def train():
         ema.restore()
 ```
 
+# 创建镜像
+```shell script
+docker build -t qianye/easybert:v1 .
+```
+# 启动镜像
+```shell script
+docker run -tid --name algo_easybert qianye/easybert:v1 /bin/bash
+```
+# 执行py文件
+```shell script
+docker run -v /tmp:/app/easybert -w /app/easybert qianye/easybert:v1 Sentiment.py
+```
 
 
-# 后续工作
-
-1. 关系抽取，此部分实验作者正在进行检测。
-2. 文本翻译
-
-
-
-# 资料参考
-
-致谢！
-
-[https://github.com/lonePatient/BERT-NER-Pytorch](https://github.com/lonePatient/BERT-NER-Pytorch)
-
-https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch
-
-https://github.com/zhaogaofeng611/TextMatch
-
-https://github.com/yongzhuo/nlp_xiaojiang
-
-[https://fyubang.com/2019/10/15/adversarial-train/](https://fyubang.com/2019/10/15/adversarial-train/)
-
-[https://zhuanlan.zhihu.com/p/68748778](https://zhuanlan.zhihu.com/p/68748778)
