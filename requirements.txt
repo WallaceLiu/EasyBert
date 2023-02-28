@@ -1,8 +1,8 @@
 absl-py==0.9.0
 alabaster==0.7.12
-anaconda-client==1.7.2
-anaconda-navigator==1.9.7
-anaconda-project==0.8.3
+# anaconda-client==1.7.2
+# anaconda-navigator==1.9.7
+# anaconda-project==0.8.3
 asn1crypto==1.0.1
 astor==0.8.1
 astroid==2.3.1
@@ -32,13 +32,13 @@ cffi==1.12.3
 chardet==3.0.4
 Click==7.0
 cloudpickle==1.2.2
-clyent==1.2.2
+# clyent==1.2.2
 colorama==0.4.1
 comtypes==1.1.7
-conda==4.7.12
-conda-build==3.18.9
-conda-package-handling==1.6.0
-conda-verify==3.4.2
+# conda==4.7.12
+# conda-build==3.18.9
+# conda-package-handling==1.6.0
+# conda-verify==3.4.2
 contextlib2==0.6.0
 cryptography==2.7
 cycler==0.10.0
@@ -91,12 +91,12 @@ joblib==0.13.2
 JPype1==0.7.0
 json5==0.8.5
 jsonschema==3.0.2
-jupyter==1.0.0
-jupyter-client==5.3.3
-jupyter-console==6.0.0
-jupyter-core==4.5.0
-jupyterlab==1.1.4
-jupyterlab-server==1.0.6
+# jupyter==1.0.0
+# jupyter-client==5.3.3
+# jupyter-console==6.0.0
+# jupyter-core==4.5.0
+# jupyterlab==1.1.4
+# jupyterlab-server==1.0.6
 Keras==2.3.1
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
@@ -111,18 +111,18 @@ Markdown==3.2.1
 MarkupSafe==1.1.1
 matplotlib==3.1.1
 mccabe==0.6.1
-menuinst==1.4.16
+# menuinst==1.4.16
 missingno==0.4.2
 mistune==0.8.4
-mkl-fft==1.0.14
-mkl-random==1.1.0
-mkl-service==2.3.0
+# mkl-fft==1.0.14
+# mkl-random==1.1.0
+# mkl-service==2.3.0
 mock==3.0.5
 more-itertools==7.2.0
 mpmath==1.1.0
 msgpack==0.6.1
 multipledispatch==0.6.0
-navigator-updater==0.2.1
+# navigator-updater==0.2.1
 nbconvert==5.6.0
 nbformat==4.4.0
 networkx==2.3
@@ -181,8 +181,8 @@ pytest-remotedata==0.3.2
 python-dateutil==2.8.0
 pytz==2019.3
 PyWavelets==1.0.3
-pywin32==223
-pywinpty==0.5.5
+# pywin32==223
+# pywinpty==0.5.5
 PyYAML==5.1.2
 pyzmq==18.1.0
 QtAwesome==0.6.0
@@ -205,6 +205,7 @@ sentencepiece==0.1.85
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.12.0
+# six==1.15.0
 smart-open==1.10.0
 snowballstemmer==2.0.0
 sortedcollections==1.1.2
@@ -233,7 +234,7 @@ terminado==0.8.2
 testpath==0.4.2
 tokenizers==0.5.2
 toolz==0.10.0
-torch==1.4.0+cpu
+torch==1.4.0
 tornado==6.0.3
 tqdm==4.36.1
 traitlets==4.3.3

@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#ide
+.idea
+Sentiment/.idea
+TextClassifier/.idea
+TextClassifier/.idea
+
+# data and model
+Sentiment/bert_pretrain/*
+Sentiment/saved_dict/*
+Sentiment/Sentiment/saved_dict/*
+Sentiment/data/*
