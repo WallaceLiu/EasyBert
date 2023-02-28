@@ -193,7 +193,7 @@ requests==2.22.0
 rope==0.14.0
 rouge==1.0.0
 rsa==4.0
-ruamel-yaml==0.15.46
+# ruamel-yaml==0.15.46
 s3transfer==0.3.3
 sacremoses==0.0.41
 scikit-image==0.15.0
