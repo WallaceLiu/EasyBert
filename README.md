@@ -158,7 +158,7 @@ def train():
  docker run -v /tmp:/app/easybert -w /app/easybert qianye/easybert:v1 Sentiment.py
 ```
 ```shell script
- docker exec -it algo_easybert /bin/bash -c 'cd /app/easybert/EasyBert && python Sentiment.py'
+ docker exec -it algo_easybert /bin/bash -c 'cd /app/easybert && python Sentiment.py'
 ```
 
 
