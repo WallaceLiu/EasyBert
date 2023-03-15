@@ -4,6 +4,10 @@ import torch.nn as nn
 import numpy as np
 from Sentiment.pytorch_pretrained import BertModel, BertTokenizer
 
+import sys
+
+sys.path.append('Sentiment.zip')
+
 
 class Config(object):
     """配置参数"""
