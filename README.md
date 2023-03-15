@@ -160,5 +160,11 @@ def train():
 ```shell script
  docker exec -it algo_easybert /bin/bash -c 'cd /app/easybert && python Sentiment.py'
 ```
-
-
+# 导出镜像
+```shell script
+docker save -o easybert-1.0 qianye/easybert:v1
+```
+# 导入镜像
+```shell script
+docker load
+```
