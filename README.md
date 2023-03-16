@@ -151,14 +151,14 @@ def train():
 ```
 # 启动镜像
 ```shell script
- docker run -tid --name algo_easybert qianye/easybert:v1 /bin/bash
+ docker run -tid --name algo_easybert_py37 qianye/easybert:v1 /bin/bash
 ```
 # 执行py文件
 ```shell script
  docker run -v /tmp:/app/easybert -w /app/easybert qianye/easybert:v1 Sentiment.py
 ```
 ```shell script
- docker exec -it algo_easybert /bin/bash -c 'cd /app/easybert && python Sentiment.py'
+ docker exec -it algo_easybert_py37 /bin/bash -c 'cd /app/easybert && python Sentiment.py'
 ```
 # 导出镜像
 ```shell script
